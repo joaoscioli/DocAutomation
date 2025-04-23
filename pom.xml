@@ -7,15 +7,27 @@
   <name>Archetype - doc_Automation</name>
   <url>http://maven.apache.org</url>
 
-
   <dependencies>
     <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-scratchpad -->
     <dependency>
       <groupId>org.apache.poi</groupId>
-      <artifactId>poi-scratchpad</artifactId>
+      <artifactId>poi-ooxml</artifactId>
       <version>5.4.1</version>
+    </dependency>
+    
+    <!-- Log4j Core -->
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>2.22.1</version>
+    </dependency>
+    
+    <!-- Log4j API -->
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>2.22.1</version>
     </dependency>
   </dependencies>
 
 </project>
-
